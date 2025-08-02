@@ -22,6 +22,3 @@ A full-featured, extensible data pipeline that extracts raw data from the Spotif
 - **Secrets/config:** `.env`, Vault, or GitHub Secrets  
 - **Observability:** Prometheus + Grafana, Airflow UI, logging  
 - **CI/CD:** GitHub Actions for testing & deployment  
-
-## 📦 Repository Layout (suggested)
-
