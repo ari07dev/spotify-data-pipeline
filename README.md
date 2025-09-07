@@ -11,14 +11,3 @@ A full-featured, extensible data pipeline that extracts raw data from the Spotif
 - Support reproducible transformations and operational reliability.
 
 
-## 🔧 Tech Stack (suggested)
-
-- **Extraction/Scheduler:** Apache Airflow, Prefect, or custom Python cron jobs  
-- **Message Bus / Buffering (optional):** Kafka, RabbitMQ  
-- **Storage (raw):** S3 / MinIO / local filesystem  
-- **Transformation:** dbt, Python (Pandas), or Spark  
-- **Warehouse:** PostgreSQL (for small-medium), Snowflake / BigQuery for scale  
-- **Analytics/Visualization:** Metabase, Superset, or custom dashboards  
-- **Secrets/config:** `.env`, Vault, or GitHub Secrets  
-- **Observability:** Prometheus + Grafana, Airflow UI, logging  
-- **CI/CD:** GitHub Actions for testing & deployment  
